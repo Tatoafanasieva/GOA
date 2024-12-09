@@ -5,6 +5,9 @@
 hello=(input("say hello:"))
 print(hello)
 
+name=(input("enter your name:"))
+age=(input("enter your age:"))
+print(name+" "+hello)
 
 name=(input("enter your name:"))
 username=(input("enter your username:"))
