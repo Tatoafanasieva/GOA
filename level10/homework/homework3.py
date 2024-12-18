@@ -1,0 +1,18 @@
+# 3) შექმენი 4 ცვლადი ოჯახის წევრებზე, გამოიყენეთ input და შემდეგ გამოთვალეთ 10 წელიწადში რამდენი წლის იქნება.
+
+mom = int(input("enter mom's age: "))
+print(mom)
+dad = int(input("enter dad's age: "))
+print(dad)
+sis = int(input("enter sis's age: "))
+print(sis)
+bro = int(input("enter bro's age: "))
+print(bro)
+mom2 = input(mom + 10 )
+print(mom2)
+dad2 = input(dad + 10 )
+print(dad2)
+sis2 = input(sis + 10 )
+print(sis2)
+bro2 = input(bro + 10 )
+print(bro2)
