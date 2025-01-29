@@ -59,6 +59,7 @@
 
     ol {
       text-align: center;
+      list-style-position: inside;
       font-size: 200%;
     }
 
@@ -68,13 +69,14 @@
     }
 
     #GOA_photo {
-      width: 1500px;
+      width: 1400px;
       height: 250px;
     }
 
     div {
       display: flex;
       justify-content: center;
+      align-items: center;
     }
 
     img {
@@ -89,15 +91,18 @@
       width: 700px;
     }
 
-    select{
-      display: flex;
-      justify-content: center;
+    select {
+      text-align: center;
       font-size: 200%;
     }
 
-    button{
+    button {
       text-align: center;
       font-size: 200%;
+    }
+
+    .facebook{
+      width: 120px;
     }
   </style>
 </head>
@@ -157,7 +162,7 @@
 
     <p>this is GOA's Facebook page: </p>
 
-    <a href="https://www.facebook.com/groups/1133392237455746"><img src="pngegg.png" alt="facebook_logo"></a>
+    <a href="https://www.facebook.com/groups/1133392237455746"><img src="pngegg.png" alt="facebook_logo" class="facebook"></a>
   </div>
 
   <div>
@@ -167,21 +172,24 @@
 
     <p>there is GOA martial art's facebook page: </p>
 
-    <a href="https://www.facebook.com/nika1keshelava"><img src="pngegg.png" alt="facebook_logo"></a>
+    <a href="https://www.facebook.com/nika1keshelava"><img src="pngegg.png" alt="facebook_logo" class="facebook"></a>
   </div>
 
   <p>will you registrate in GOA academy?</p>
 
-  <select>
-    <option>yes</option>
-    <option>No</option>
-    <option>maybe</option>
-  </select>
+  <div>
+    <select>
+      <option>yes</option>
+      <option>No</option>
+      <option>maybe</option>
+    </select>
+  </div>
 
   <p>if u want to registrate enter this button⬇️</p>
 
-  <button><a href="Registrate.html">Registrate</a></button>
-
+  <div>
+    <button><a href="Registrate.html">Registrate</a></button>
+  </div>
 
 </body>
 
